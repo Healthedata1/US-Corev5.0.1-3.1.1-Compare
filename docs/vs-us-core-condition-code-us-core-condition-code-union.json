@@ -1,0 +1,50 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a75a606d-3182-4530-a3fb-2a5e71ea2112-155",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a75a606d-3182-4530-a3fb-2a5e71ea2112-155",
+  "name" : "UnionUSCoreConditionCodeAndUSCoreConditionCodes",
+  "title" : "Union of US Core Condition Code And US Core Condition Codes",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:18-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "160245001"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "404684003"
+      }]
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "243796009"
+      }]
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "272379006"
+      }]
+    }]
+  }
+}

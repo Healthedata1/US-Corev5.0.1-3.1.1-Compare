@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a75a606d-3182-4530-a3fb-2a5e71ea2112-116",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a75a606d-3182-4530-a3fb-2a5e71ea2112-116",
+  "name" : "UnionUSCoreProviderSpecialityNuccAndHealthcare Provider Taxonomy",
+  "title" : "Union of US Core Provider Speciality (NUCC) And null",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:18-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US",
+      "display" : "United States of America"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "abstract",
+        "op" : "=",
+        "value" : "false"
+      }]
+    }]
+  }
+}

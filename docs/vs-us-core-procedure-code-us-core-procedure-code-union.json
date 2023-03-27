@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "a75a606d-3182-4530-a3fb-2a5e71ea2112-188",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/a75a606d-3182-4530-a3fb-2a5e71ea2112-188",
+  "name" : "UnionUSCoreProcedureCodesAndUSCoreProcedureCodes",
+  "title" : "Union of US Core Procedure Codes And US Core Procedure Codes",
+  "status" : "active",
+  "date" : "2023-03-27T16:35:18-07:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "US"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      
+    },
+    {
+      "filter" : [{
+        "property" : "concept",
+        "op" : "is-a",
+        "value" : "71388002"
+      }]
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.6.285"
+    },
+    {
+      
+    },
+    {
+      "system" : "urn:oid:2.16.840.1.113883.6.13"
+    },
+    {
+      "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets"
+    },
+    {
+      "system" : "http://www.ada.org/cdt"
+    },
+    {
+      "system" : "http://loinc.org"
+    }]
+  }
+}
